@@ -18,6 +18,14 @@ const Login = () => {
     return (
          <div className="w-screen h-screen" style={{ backgroundColor: '#10151d' }}>
             <motion.div
+                className="text-lg h-[-20%] font-light flex justify-center pt-10 text-white"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.5 }}
+            >
+                A ReachInBox Task
+            </motion.div>
+            <motion.div
                 className="text-8xl h-[30%] font-semibold flex flex-col justify-end pb-10 items-center text-white"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
