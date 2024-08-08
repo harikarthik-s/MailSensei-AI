@@ -6,11 +6,11 @@ import Outlook from "../img/outlook.svg";
 const Login = () => {
 
     const handleGoogleLogin = () => {
-        // window.location.href = "http://localhost:8000/gmail/signin";
+        window.location.href = "http://localhost:3000/auth/gmail";
     };
 
     const handleOutlookLogin = () => {
-        // window.location.href = "http://localhost:8000/outlook/signin";
+        window.location.href = "http://localhost:3000/auth/outlook";
     };
 
     

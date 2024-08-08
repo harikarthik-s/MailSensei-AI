@@ -38,7 +38,7 @@ app.get('/auth/outlook', async (req, res) => {
   }
 });
 
-app.get('/auth/outlook/callback', async (req, res) => {
+app.get('/auth/callback', async (req, res) => {
   const code = req.query.code as string;
   try {
     console.log('Received auth code:', code);
@@ -50,6 +50,7 @@ app.get('/auth/outlook/callback', async (req, res) => {
     res.status(500).send('Outlook authentication failed: ' + (error instanceof Error ? error.message : 'Unknown error'));
   }
 });
+
 
 app.get('/verify-outlook-auth', async (req, res) => {
   try {
