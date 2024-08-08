@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/auth/gmail", "destination": "/api/auth/gmail" },
+    { "source": "/auth/outlook", "destination": "/api/auth/outlook" },
+    { "source": "/oauth2callback", "destination": "/api/oauth2callback" }
+  ]
+}
