@@ -6,11 +6,13 @@ import Outlook from "../img/outlook.svg";
 const Login = () => {
 
     const handleGoogleLogin = () => {
-        window.location.href = "http://localhost:3000/auth/gmail";
+        window.location.href =
+          "https://mail-sensei-ai-serv.vercel.app/auth/gmail";
     };
 
     const handleOutlookLogin = () => {
-        window.location.href = "http://localhost:3000/auth/outlook";
+        window.location.href =
+          "https://mail-sensei-ai-serv.vercel.app/auth/outlook";
     };
 
     
