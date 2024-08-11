@@ -14,8 +14,15 @@ MailSensei-AI is an intelligent email management tool designed to parse and anal
 - **Task Scheduling**: BullMQ is used to manage and schedule tasks efficiently.
 
 ## Media
-- **Video Explanation**: 
+- **Video Explanation**:
+  https://drive.google.com/file/d/1WKATlqZH6oRv4s_JqIVFp6tcqoDClVVX/view?usp=drive_link
+  
 - **Screenshots**: 
+  ![Frontend Login Screen](https://github.com/user-attachments/assets/e52ce5c8-f700-406d-9107-dd15d96a66a7)
+  ![Oauth](https://github.com/user-attachments/assets/be45b8fd-dbf8-441f-a966-ff736f282379)
+  ![Process email Endpoint](https://github.com/user-attachments/assets/11c24088-905d-4e6f-87f0-b339bb9cd07f)
+  ![mailinbox](https://github.com/user-attachments/assets/ac304afe-ed8e-4078-8ab1-9e803a7059a7)
+  ![Automated AI response](https://github.com/user-attachments/assets/4299b5a9-3ac2-475e-9b9d-b29313830f6d)
 
 ## Prerequisites
 - Node.js
